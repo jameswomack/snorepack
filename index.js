@@ -38,7 +38,7 @@ const entryFileName = Path.basename(entryFilePath);
 
 const shouldTestWithNodeExecution = snorepackOptions.includes('--preview-output');
 
-const snoreDuration = (function getsnoreDurationOverrideIfExtant() {
+const snoreDuration = (function getSnoreDurationOverrideIfExtant() {
   const snoreDurationOptionFormat = '--snore-duration=';
 
   const snoreDurationOption = snorepackOptions.find(function snoreDurationOptionLocator(arg) {
