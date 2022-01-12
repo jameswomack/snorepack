@@ -1,0 +1,42 @@
+{
+  "name": "snorepack",
+  "version": "1.0.0",
+  "description": "the boringest pack tool in the alpha quadrant™ ",
+  "module": "index.js",
+  "type": "module",
+  "bin": {
+    "snorepack": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "bash ./test/index.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/snorepack.git"
+  },
+  "keywords": [
+    "pack",
+    "build"
+  ],
+  "author": "James J. Womack (@james_womack)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswomack/snorepack/issues"
+  },
+  "homepage": "https://github.com/jameswomack/snorepack#readme",
+  "dependencies": {
+    "babel-collect-imports": "1.1.0",
+    "find-requires": "1.0.0",
+    "mkdirp": "1.0.4",
+    "ora": "6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
