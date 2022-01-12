@@ -133,8 +133,9 @@ setTimeout(async function endTheSpinForAWinSansSinMyFriend() {
     if (shouldTestWithNodeExecution) import(pathToImport);
   } catch (importError) {
     console.error(`
-      We're very snorey ${snoreyBoys} 
-      We experienced an error previewing JavaScript output in the Node environment.\n${importError.message}
+      we're very snorey ${snoreyBoys} 
+      
+      we experienced an error previewing javascript output in the node environment.\n${importError.message}
     `.trim());
   }
 }, snoreDuration);
